@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { MyselfComponent } from './myself/myself.component';
 import { HistoryComponent } from './history/history.component';
 import { SkillComponent } from './skill/skill.component';
+import { MychartComponent } from './mychart/mychart.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SkillComponent } from './skill/skill.component';
     NavbarComponent,
     MyselfComponent,
     HistoryComponent,
-    SkillComponent
+    SkillComponent,
+    MychartComponent
   ],
   imports: [
     BrowserModule,
