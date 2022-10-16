@@ -1,0 +1,7 @@
+li a:horizontal {
+    background-color: white;
+}
+
+nav {
+    z-index: 100000;
+}
