@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+/*========== BASE ==========*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim', sans-serif;
+}
+
+body {
+    background-color: #0a0a0a;
+    color: #fff;
+}
+
+button,
+input {
+    border: 0;
+    border-radius: .2rem;
+}
+
+button {
+    padding: .3rem;
+    font-size: var(--h3-font-size);
+}
+
+button:hover {
+    opacity: 90%;
+}
+
+input {
+    padding: .3rem;
+    width: 5.6rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    font-size: var(--h3-font-size);
+}
