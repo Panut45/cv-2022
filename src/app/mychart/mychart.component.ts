@@ -17,13 +17,13 @@ export class MychartComponent implements OnInit {
   }
 
   RenderChart() {
-    const myChart = new Chart('piechart', {
+    const myChart = new Chart('barchart', {
       type: 'bar',
       data: {
         labels: ['Figma', 'HTML/CSS', 'Typescript', 'Angular', 'Github/Gitlab', 'Fork'],
         datasets: [{
-          label: '# of Votes',
-          data: [80, 80, 65, 65, 65, 65],
+          label: 'Enable',
+          data: [80, 80, 65, 65, 70, 70],
           backgroundColor: [
             'rgba(153, 102, 255, 0.2)',
           ],
@@ -36,7 +36,7 @@ export class MychartComponent implements OnInit {
       options: {
         scales: {
           y: {
-            beginAtZero: true
+            suggestedMax: 100
           }
         }
       }

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 8rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    width: 50%;
+}
+
+.pr {
+    padding-right: 20rem;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}

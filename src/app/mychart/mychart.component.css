@@ -9,3 +9,11 @@ body {
     margin-right: 6rem;
     color: black;
 }
+
+.content {
+    width: 70%;
+}
+
+.content h2 {
+    margin-bottom: 2rem;
+}
